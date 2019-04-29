@@ -1,0 +1,4 @@
+@charset "UTF-8";
+
+.imga > a{color:blue;}
+.imga > a:hover{color:red;}

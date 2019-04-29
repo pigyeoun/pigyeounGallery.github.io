@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none; color:black;}
+h1{font-family:"나눔고딕";}
+p{font-family:"나눔고딕";}
+
+/* 기본값 */
+#song{float:right; width:170px; height:25px; margin:2.5px 10px  0 0;}
+header{background-color:black; width:100%; height:30px;}
+
+body{background-image:url("image/mainBG.png");}
+
+/* 메뉴 위치지정 */
+#wrap{position:relative; width:1350px; height:850px;
+      background-image:url("image/web_home.png");}
+#mainmenu{width:72px; position:absolute; right:13px; top:150px;}
+.Menu{display:block; margin-top:2px;}
+
+#subtitle{position:absolute; font-weight:bold; top:102px; right:102px;}
+
+
+.con1{position:absolute; width:271px; height:637px; top:130px; left:83px;}
+.profile_image{width:223px; height:267px; margin:40px 0 0 22px;
+         background-image:url("image/profile.png"); border:2px solid rgb(255, 46, 121);}
+.profile_text{width:227px; height:180px; margin:118px 0 32px 22px; display:none;}
+.profile_text > p{font-size:12px;}
+.mainp{float:left; font-weight:bold;}
+
+
+.con2{width:855px; height:591px; top:153px; left:392px; position:absolute;}
+.con2_top{width: 840px;height: 410px;}
+.comic{width:400px; height:390px; background-color:#ffffcc; margin-left:15px;
+       float:left; display:none;}
+.comicmenu{width:380px; height:110px; margin:5px 10px 5px 10px; background-color:rgb(255, 158, 158);}
+.con2_1{width:400px; height:250px; margin-left:25px; float:left;}
+.character{width:400px; height:250px; background-color:#ffffcc; margin-bottom:20px;
+       display:none;}
+.chamenu{width:120px; height:95px; background-color:rgb(255, 158, 158); margin:10px 0 0 10px; float:left;}
+.commisson{width:400px; height:120px; background-color:#ffffcc;
+        display:none; position:relative;}
+.notice{width:825px; height:180px; background-color:#ffcccc; margin-left:15px;}
+
+.con2 .quickmenu_text{font-size:26px; font-weight:bold;}
+.con2 p {font-size:16px;}
